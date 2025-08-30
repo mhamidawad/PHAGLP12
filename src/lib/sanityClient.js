@@ -8,5 +8,5 @@ export const client = createClient({
   projectId: import.meta.env.PUBLIC_SANITY_PROJECT_ID,
   dataset: "production",
   useCdn: false, // Set to true if you are using static data for the frontend
-  apiVersion: "2024-05-19", // use current date (YYYY-MM-DD) to prevent errors
+  apiVersion: "2025-08-31", // use current date (YYYY-MM-DD) to prevent errors
 });
