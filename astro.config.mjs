@@ -10,7 +10,11 @@ const { PUBLIC_SANITY_PROJECT_ID, PUBLIC_SANITY_DATASET } = loadEnv(
   ""
 );
 
+// https://astro.build/config
 export default defineConfig({
+// This is the new setting you need to add.
+// It tells Astro to use a hybrid output, which is required for Sanity Studio.
+output: 'hybrid',
   integrations: [
     sanityIntegration({
       projectId: PUBLIC_SANITY_PROJECT_ID,
