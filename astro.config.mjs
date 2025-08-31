@@ -23,5 +23,7 @@ output: 'hybrid',
       studioBasePath: "/admin",
     }),
     react(),
+    // Add the Netlify adapter to the integrations list
+netlify(),
   ],
 });
