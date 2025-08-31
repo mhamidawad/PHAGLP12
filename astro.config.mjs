@@ -3,6 +3,10 @@ import { defineConfig } from "astro/config";
 import { sanityIntegration } from "@sanity/astro"; // Changed to a named import
 import react from "@astrojs/react";
 import { loadEnv } from "vite";
+// Import the Netlify adapter to enable hybrid rendering on Netlify
+import netlify from '@astrojs/netlify';
+
+
 
 const { PUBLIC_SANITY_PROJECT_ID, PUBLIC_SANITY_DATASET } = loadEnv(
   process.env.NODE_ENV,
