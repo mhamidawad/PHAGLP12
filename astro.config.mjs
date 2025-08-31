@@ -1,5 +1,7 @@
 // astro.config.mjs
 import { defineConfig } from "astro/config";
+import netlify from "@astrojs/netlify/edge-functions"
+
 import { sanityIntegration } from "@sanity/astro"; // Changed to a named import
 import react from "@astrojs/react";
 import { loadEnv } from "vite";
