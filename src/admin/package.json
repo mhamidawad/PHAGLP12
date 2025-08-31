@@ -1,7 +1,0 @@
-{
-  "name": "day-one",
-  "private": true,
-  "scripts": {
-    "create:studio": "pnpm create sanity@latest --template clean --create-project \"Day One Content Operations\" --dataset production --typescript --output-path src/admin/"
-  }
-}
