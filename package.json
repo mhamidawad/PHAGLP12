@@ -13,6 +13,7 @@
 "sanity:deploy": "sanity deploy"
 },
 "dependencies": {
+"@astrojs/netlify": "^5.4.0",
 "@sanity/astro": "^2.0.1",
 "@sanity/client": "^6.2.1",
 "astro": "^4.0.7",
