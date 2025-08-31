@@ -21,6 +21,8 @@ export default defineConfig({
 // This is the new setting you need to add.
 // It tells Astro to use a hybrid output, which is required for Sanity Studio.
 output: 'hybrid',
+  // This is the key change! The adapter must be at the top level of the config.
+adapter: netlify(),
   integrations: [
     sanityIntegration({
       projectId: PUBLIC_SANITY_PROJECT_ID,
